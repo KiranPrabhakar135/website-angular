@@ -1,0 +1,7 @@
+ul.list :hover{
+  transform: translateX(300px);
+}
+li{
+  color: green;
+  transition: transform 0.5s linear;
+}

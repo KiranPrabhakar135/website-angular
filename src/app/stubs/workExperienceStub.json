@@ -1,0 +1,70 @@
+[{
+  "logo": "charles-schwab",
+  "companyName": "Charles Schwab",
+  "designation" : "Summer Intern - CRM-Model RM",
+  "location": "LoneTree, CO, USA",
+  "duration": "2 months",
+  "description" : "Involved in the in house application which serves as a critical tool for all operations in model risk.",
+  "from" : "June, 2019",
+  "to" : "August, 2019",
+  "details" : ["Involved in the in house application which serves as a critical tool for all operations in model risk.",
+    "Developed various tools using Angular7, MS SQL, .NET framework and C#"
+  ],
+  "skillsAcquired" : ["Financial Servicing", "Risk Management"]
+},
+{
+  "logo": "ub",
+  "companyName": "University at Buffalo",
+  "designation" : "Graduate Student Assistant",
+  "location": "Buffalo, NY, USA",
+  "duration": "4 months",
+  "description" : "sample desc",
+  "from" : "June, 2019",
+  "to" : "August, 2019",
+  "details" : ["Involved in the in house application which serves as a critical tool for all operations in model risk.",
+    "Developed various tools using Angular7, MS SQL, .NET framework and C#"
+  ],
+  "skillsAcquired" : ["Financial Servicing", "Risk Management"]
+},
+{
+  "logo": "itron",
+  "companyName": "Itron Inc.",
+  "designation" : "Senior Software Engineer",
+  "location": "Bengaluru, KN, India",
+  "duration": "1yr 9m",
+  "description" : "sample desc",
+  "from" : "June, 2019",
+  "to" : "August, 2019",
+  "details" : ["Involved in the in house application which serves as a critical tool for all operations in model risk.",
+    "Developed various tools using Angular7, MS SQL, .NET framework and C#"
+  ],
+  "skillsAcquired" : ["Financial Servicing", "Risk Management"]
+},
+{
+  "logo": "reremile",
+  "companyName": "Raremile Technologies",
+  "designation" : "Software Engineer",
+  "location": "Bengaluru, KN, India",
+  "duration": "1yr 5m",
+  "description" : "sample desc",
+  "from" : "June, 2019",
+  "to" : "August, 2019",
+  "details" : ["Involved in the in house application which serves as a critical tool for all operations in model risk.",
+    "Developed various tools using Angular7, MS SQL, .NET framework and C#"
+  ],
+  "skillsAcquired" : ["Financial Servicing", "Risk Management"]
+},
+{
+  "logo": "tcs",
+  "companyName": "TCS",
+  "designation" : "Associate Systems Engineer",
+  "location": "Bengaluru, KN, India",
+  "duration": "8 months",
+  "description" : "sample desc",
+  "from" : "June, 2019",
+  "to" : "August, 2019",
+  "details" : ["Involved in the in house application which serves as a critical tool for all operations in model risk.",
+    "Developed various tools using Angular7, MS SQL, .NET framework and C#"
+  ],
+  "skillsAcquired" : ["Financial Servicing", "Risk Management"]
+}]

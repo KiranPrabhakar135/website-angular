@@ -1,1 +1,163 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+  font-family: 'Bellota-LightItalic';
+  src: url("assets/fonts/Bellota-LightItalic.otf");
+}
+@font-face {
+  font-family: 'Bellota-BoldItalic';
+  src: url("assets/fonts/Bellota-BoldItalic.otf");
+}
+@font-face {
+  font-family: 'cursive-bold';
+  src: url("assets/fonts/learning_curve_bold_ot_ps.otf");
+}
+@font-face {
+  font-family: 'tup-wanders';
+  src: url("assets/fonts/Aaargh.ttf");
+}
+@font-face {
+  font-family: 'type-writer';
+  src: url("assets/fonts/Kingthings_Trypewriter_2.ttf");
+}
+
+body{
+  margin: 0;
+}
+
+.float-left{
+  float: left;
+}
+.margin-10px{
+  margin: 10px;
+}
+
+
+.padding-10px{
+  padding: 10px;
+}
+
+.wrapper{
+  /*background-color: rgba(33, 32, 42, 0.44);*/
+  background: rgba(0,0,0,.03);
+  height: 100%;
+  width: 100%;
+  min-height: inherit;
+  min-width: inherit;
+}
+.main-card {
+  padding: 0 !important;
+}
+.margin-btm-5px{
+  margin-bottom: 5px;
+}
+
+.background-div{
+  background-image: url("/assets/background/bckgrndName.png");
+  background-size:40% ;
+}
+
+
+/*work experience page and dialogs in it.*/
+.card{
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  margin:15px 0;
+  padding:10px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+  opacity: 0.85;
+}
+.card-div :hover{
+  /*box-shadow: 5px 5px 5px 5px rgba(0,0,0,.2);*/
+  border-color: rgba(0,0,0,.4);
+  /*box-shadow: 5px 5px 5px 5px rgba(0,0,0,.2);*/
+}
+.charles-schwab{
+  background-image: url("assets/logo/charlesSchwab.jpg");
+}
+.itron{
+  background-image: url("assets/logo/itron.jpg");
+}
+.ub{
+  background-image: url("assets/logo/ub.jpg");
+}
+.tcs{
+  background-image: url("assets/logo/tcs.jpg");
+}
+.reremile{
+  background-image: url("assets/logo/reremile.png");
+}
+.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 0;
+  flex-shrink: 0;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 50px 50px !important;
+}
+mat-card-title{
+  min-width: 200px;
+}
+
+.company-name{
+  font-family: 'Bellota-LightItalic', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+  text-shadow: #000 1px 1px 1px;
+}
+
+.designation{
+  font-family: 'cursive-bold', cursive;
+  color: #000000;
+}
+
+.location, .duration{
+  font-family: 'tup-wanders', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px auto;
+}
+
+.location-icon{
+  font-size: 20px;
+  color:lightskyblue;
+  margin: 5px auto;
+}
+.duration-icon{
+  font-size: 20px;
+  color: greenyellow;
+}
+
+.description{
+  font-family: 'type-writer', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btn-style{
+  font-family: 'Bellota-LightItalic', sans-serif;
+  text-shadow: #000 2.5px 2.5px 6.5px;
+  background-color: rgba(144, 146, 153, 0.94);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.card .mat-card-header-text{
+  margin: 0 auto;
+}

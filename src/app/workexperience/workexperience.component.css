@@ -1,0 +1,13 @@
+.content-min-height{
+  min-height: 860px;
+}
+
+.read-more:focus{
+  border: none;
+}
+
+mat-card-content{
+  min-height: 100px;
+}
+
+

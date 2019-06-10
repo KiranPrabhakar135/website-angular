@@ -1,0 +1,66 @@
+<mat-card class="main-card content-min-height" >
+    <div class="wrapper background-div">
+      <app-numbers></app-numbers>
+
+      <div *ngFor="let workExperience of workExperiences" class="float-left col-xl-4 col-lg-4 col-md-4 col-sm-4 card-div"  matRipple
+           [matRippleCentered]="centered"
+           [matRippleUnbounded]="unbounded"
+           [matRippleColor]="rippleColor">
+        <mat-card class="card">
+          <mat-card-header>
+            <div mat-card-avatar class="logo {{workExperience.logo}}"></div>
+            <mat-card-title class="company-name">{{workExperience.companyName}}</mat-card-title>
+            <mat-card-subtitle class="designation">{{workExperience.designation}} </mat-card-subtitle>
+            <div class="location text-center margin-10px">
+              <div><i class="duration-icon material-icons"> history </i></div>
+              <div>{{workExperience.duration}} </div>
+            </div>
+          </mat-card-header>
+
+          <mat-card-content class="description">
+            <p>
+              {{workExperience.description}}
+            </p>
+          </mat-card-content>
+          <div>
+            <i class="material-icons float-left location-icon"> location_on </i>
+            <div class="margin-btm-5px location float-left">{{workExperience.location}}</div>
+            <button mat-raised-button id="{{workExperience.companyName}}" (click)="openDialog($event)"  class="btn-style float-right">Read more..</button>
+          </div>
+        </mat-card>
+      </div>
+
+
+
+    </div>
+
+    <!--</div>-->
+    <!--<mat-card-header>-->
+    <!--<div mat-card-avatar class="example-header-image"></div>-->
+    <!--<mat-card-title>Shiba Inu</mat-card-title>-->
+    <!--<mat-card-subtitle>Dog Breed</mat-card-subtitle>-->
+    <!--</mat-card-header>-->
+    <!--<img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+    <!--<mat-card-content>-->
+    <!--<p>-->
+    <!--The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.-->
+    <!--A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally-->
+    <!--bred for hunting.-->
+    <!--</p>-->
+    <!--</mat-card-content>-->
+    <!--<mat-card-actions>-->
+    <!--<button mat-button>LIKE</button>-->
+    <!--<button mat-button>SHARE</button>-->
+    <!--</mat-card-actions>-->
+  </mat-card>
+
+<!--<div class="container">-->
+  <!--<div class="row">-->
+    <!--<div class="float-left col-xl-12 col-lg-12 col-md-12 col-sm-12 cool-facts">-->
+      <!--<div class="">-->
+        <!--test-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+

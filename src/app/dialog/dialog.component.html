@@ -1,0 +1,44 @@
+<mat-card class="main-card content-min-height" >
+  <div class="wrapper background-div">
+    <div *ngIf="workExperience" class="float-left col-xl-12 col-lg-12 col-md-12 col-sm-12 card-div">
+      <mat-card class="card">
+        <mat-card-header>
+          <div mat-card-avatar class="logo {{workExperience.logo}} col-xl-2 col-lg-2 col-md-2 col-sm-2"></div>
+          <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7">
+            <mat-card-title class="company-name">{{workExperience.companyName}}</mat-card-title>
+            <mat-card-subtitle class="designation">{{workExperience.designation}} </mat-card-subtitle>
+          </div>
+          <div class="location text-center margin-10px col-xl-3 col-lg-3 col-md-3 col-sm-3">
+            <div>{{workExperience.duration}} </div>
+            <div>{{workExperience.from}} - {{workExperience.to}}</div>
+          </div>
+        </mat-card-header>
+
+        <mat-card-content class="description">
+          <app-listenter [details] = "workExperience.details"></app-listenter>
+          <!--<p *ngFor="let detail of workExperience.details">-->
+            <!--{{detail}}-->
+          <!--</p>-->
+        </mat-card-content>
+
+        <div>
+          Skills Acquired
+        </div>
+        <div>
+          <p *ngFor="let skill of workExperience.skillsAcquired">
+            {{skill}}
+          </p>
+        </div>
+
+        <div>
+          <i class="material-icons float-left location-icon"> location_on </i>
+          <div class="margin-btm-5px location float-left">{{workExperience.location}}</div>
+          <button mat-raised-button (click)="onNoClick()" class="btn-style float-right" >Close</button>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</mat-card>
+
+
+
